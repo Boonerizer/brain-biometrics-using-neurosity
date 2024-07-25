@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "First app using Neurosity SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neurosity"
+  ],
+  "author": "name123454",
+  "license": "MIT",
+  "dependencies": {
+    "@neurosity/sdk": "^6.5.10",
+    "crypto": "^1.0.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "rsjs": "^0.1.2",
+    "rxjs": "^7.8.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
